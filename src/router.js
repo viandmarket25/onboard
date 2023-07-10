@@ -2,11 +2,14 @@ import { createRouter, createWebHistory } from 'vue-router';
 import ChatView from './views/chat.vue'; // Replace with your actual component
 import MarketingView from './views/marketing.vue'
 import JoinView from './views/join.vue'
+import PrivacyView from './views/privacy.vue'
+
+
 const routes = [
   {
-    path: '/chat',
-    name: 'ChatView',
-    component: ChatView,
+    path: '/privacy',
+    name: 'PrivacyView',
+    component: PrivacyView,
   },
   {
     path: '/',

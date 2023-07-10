@@ -44,10 +44,11 @@
       <!-- Title -->
       <div class="text-center">
         <p class="text-xs font-semibold text-gray-500 tracking-wide uppercase mb-3 dark:text-gray-200">
-          Join our Waitlist
+            We are happy you would like to get involved early!
+           
         </p>
-        <h1 class="text-3xl text-gray-800 font-bold sm:text-5xl lg:text-6xl lg:leading-tight dark:text-gray-200">
-        We are happy you would like to get involved early!
+        <h1 style="font-size:18px;" class="text-1xl text-gray-800 font-bold sm:text-3xl lg:text-6xl lg:leading-tight dark:text-gray-200">
+            Join our Waitlist
      
         </h1>
       </div>
@@ -58,13 +59,16 @@
         <div class="flex-shrink-0 pb-5 sm:flex sm:pb-0 sm:pr-5">
           <!-- Avatar Group -->
           <div class="flex justify-center -space-x-3">
-            <img class="inline-block h-8 w-8 rounded-full ring-2 ring-white dark:ring-gray-800" src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80" alt="Image Description">
-            <img class="inline-block h-8 w-8 rounded-full ring-2 ring-white dark:ring-gray-800" src="https://images.unsplash.com/photo-1531927557220-a9e23c1e4794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80" alt="Image Description">
-            <img class="inline-block h-8 w-8 rounded-full ring-2 ring-white dark:ring-gray-800" src="https://images.unsplash.com/photo-1541101767792-f9b2b1c4f127?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&&auto=format&fit=facearea&facepad=3&w=300&h=300&q=80" alt="Image Description">
-            <img class="inline-block h-8 w-8 rounded-full ring-2 ring-white dark:ring-gray-800" src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80" alt="Image Description">
-            <span class="inline-flex items-center justify-center h-8 w-8 rounded-full ring-2 ring-white bg-gray-800 dark:bg-gray-900 dark:ring-gray-800">
-              <span class="text-xs font-medium leading-none text-white uppercase">7k+</span>
-            </span>
+          <!-- Icon -->
+                <span style="background:#202020;" class="m-1 inline-flex justify-center items-center w-[46px] h-[46px] rounded-md bg-blue-600 text-white">
+                <svg class="w-5 h-5" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M19.1042 5.95502C19.2066 5.85057 19.3288 5.76759 19.4636 5.71095C19.5984 5.6543 19.7432 5.62512 19.8895 5.62512C20.0357 5.62512 20.1805 5.6543 20.3153 5.71095C20.4502 5.76759 20.5723 5.85057 20.6747 5.95502C21.1037 6.38852 21.1097 7.08902 20.6897 7.53002L11.8202 18.015C11.7195 18.1256 11.5973 18.2145 11.4611 18.2762C11.3249 18.3379 11.1775 18.3712 11.0279 18.374C10.8784 18.3768 10.7299 18.3491 10.5914 18.2925C10.453 18.236 10.3275 18.1517 10.2227 18.045L4.82571 12.576C4.61757 12.3638 4.50098 12.0783 4.50098 11.781C4.50098 11.4837 4.61757 11.1983 4.82571 10.986C4.92808 10.8816 5.05026 10.7986 5.1851 10.7419C5.31993 10.6853 5.46471 10.6561 5.61096 10.6561C5.75722 10.6561 5.902 10.6853 6.03683 10.7419C6.17167 10.7986 6.29385 10.8816 6.39621 10.986L10.9742 15.6255L19.0742 5.98802C19.0835 5.97643 19.0936 5.96541 19.1042 5.95502Z" fill="currentColor"/>
+                </svg>
+                </span>
+                <!-- End Icon -->
+
+           
+<!-- End Icon -->
           </div>
           <!-- End Avatar Group -->
         </div>
@@ -80,6 +84,18 @@
 
       <!-- Form -->
       <form>
+    
+
+        <div class="mx-auto max-w-2xl sm:flex sm:space-x-3 p-3 bg-white border rounded-lg shadow-lg shadow-gray-100 dark:bg-slate-900 dark:border-gray-700 dark:shadow-gray-900/[.2]">
+             
+            <textarea class="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400" rows="3" placeholder="You can drop us a message or suggestion"></textarea>
+            
+         
+          
+       
+        </div>
+        <br/>
+
         <div class="mx-auto max-w-2xl sm:flex sm:space-x-3 p-3 bg-white border rounded-lg shadow-lg shadow-gray-100 dark:bg-slate-900 dark:border-gray-700 dark:shadow-gray-900/[.2]">
           <div class="pb-2 sm:pb-0 sm:flex-[1_0_0%]">
             <label for="hs-hero-name-1" class="block text-sm font-medium dark:text-white"><span class="sr-only">Full name</span></label>
@@ -89,12 +105,41 @@
             <label for="hs-hero-email-1" class="block text-sm font-medium dark:text-white"><span class="sr-only">Email address</span></label>
             <input type="email" id="hs-hero-email-1" class="py-3 px-4 block w-full border-transparent rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 sm:p-4 dark:bg-slate-900 dark:border-transparent dark:text-gray-400" placeholder="Email">
           </div>
-          <div class="pt-2 sm:pt-0 grid sm:block sm:flex-[0_0_auto]">
-            <a style="background:#202020; height:38px; " class="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-semibold bg-blue-500 text-white hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all text-sm sm:p-4 dark:focus:ring-offset-gray-800" href="#">
-              Join the Waitlist
-            </a>
-          </div>
+          
+       
         </div>
+        <br/>
+
+
+        <div class="mx-auto max-w-2xl sm:flex sm:space-x-3 p-3 bg-white border rounded-lg shadow-lg shadow-gray-100 dark:bg-slate-900 dark:border-gray-700 dark:shadow-gray-900/[.2]">
+           
+           <select id="hs-select-label" class="py-3 px-4 pr-9 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400">
+             <option selected>What type products do you sell?</option>
+             <option>Apparells</option>
+             <option>Electronics</option>
+             <option>Digital Contents</option>
+           </select>
+           
+           </div>
+
+           <br/>
+
+        <div class="mx-auto max-w-2xl sm:flex sm:space-x-3 p-3  rounded-lg shadow-lg shadow-gray-100 dark:bg-slate-900 dark:border-gray-700 dark:shadow-gray-900/[.2]">
+
+           
+            <p class="text-sm text-gray-500 mt-2" id="hs-input-helper-text">We'll never share your details.</p>
+
+            <br/>
+            <div class="pt-2 sm:pt-0 grid sm:block sm:flex-[0_0_auto]">
+                <a style="background:#202020; height:38px; " class="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-semibold bg-blue-500 text-white hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all text-sm sm:p-4 dark:focus:ring-offset-gray-800" href="#">
+                Join the Waitlist
+                </a>
+            </div>
+          
+       
+        </div>
+    
+
       </form>
       <!-- End Form -->
 
