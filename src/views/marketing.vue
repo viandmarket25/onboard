@@ -22,6 +22,12 @@
           <a class="font-medium text-blue-500" href="#" aria-current="page">Landing</a>
           <a class="font-medium text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500" href="#">About</a>
           <a class="font-medium text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500" href="#">Blog</a>
+          <a href="/join" style="background:#202020; height:38px; " class="inline-flex justify-center items-center gap-x-3 text-center bg-gradient-to-tl from-blue-600 to-violet-600 hover:from-violet-600 hover:to-blue-600 border border-transparent text-white text-sm font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white py-3 px-4 dark:focus:ring-offset-gray-800" >
+            Join us
+            <svg class="w-3 h-3" width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </a>
         </div>
       </div>
     </nav>
@@ -35,7 +41,7 @@
   <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-10">
     <!-- Announcement Banner -->
     <div class="flex justify-center">
-      <a class="inline-flex items-center gap-x-2 bg-white border border-gray-200 text-sm text-gray-800 p-1 pl-3 rounded-full transition hover:border-gray-300 dark:bg-gray-800 dark:border-gray-700 dark:hover:border-gray-600 dark:text-gray-200" href="#">
+      <a class="inline-flex items-center gap-x-2 bg-white border border-gray-200 text-sm text-gray-800 p-1 pl-3 rounded-full transition hover:border-gray-300 dark:bg-gray-800 dark:border-gray-700 dark:hover:border-gray-600 dark:text-gray-200" href="/join">
         I'm Interested - Join the Waitlist
         <span class="py-2 px-3 inline-flex justify-center items-center gap-x-2 rounded-full bg-gray-200 font-semibold text-sm text-gray-600 dark:bg-gray-700 dark:text-gray-400">
           <svg class="w-2.5 h-2.5" width="16" height="16" viewBox="0 0 16 16" fill="none">
@@ -94,15 +100,6 @@
       <h1 class="block text-3xl font-bold text-gray-800 sm:text-4xl md:text-5xl lg:text-6xl dark:text-white">Sell online easily</h1>
       <p class="mt-3 text-lg text-gray-800 dark:text-gray-400">Introducing a new way for your brand to reach the creative community.</p>
 
-      <div class="mt-5 lg:mt-8 flex flex-col items-center gap-2 sm:flex-row sm:gap-3">
-        <div class="w-full sm:w-auto">
-          <label for="hero-input" class="sr-only">Search</label>
-          <input type="text" id="hero-input" name="hero-input" class="py-3 px-4 block w-full xl:min-w-[18rem] border-gray-200 shadow-sm rounded-md focus:z-10 focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400" placeholder="Enter work email">
-        </div>
-        <a class="w-full sm:w-auto inline-flex justify-center items-center gap-x-3 text-center bg-blue-600 hover:bg-blue-700 border border-transparent text-white font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition py-3 px-4 dark:focus:ring-offset-gray-800" href="#">
-          Request demo
-        </a>
-      </div>
 
       <!-- Brands -->
       <div class="mt-6 lg:mt-12">
@@ -177,15 +174,7 @@
       <h1 class="block text-3xl font-bold text-gray-800 sm:text-4xl md:text-5xl lg:text-6xl dark:text-white">Sell online easily</h1>
       <p class="mt-3 text-lg text-gray-800 dark:text-gray-400">Introducing a new way for your brand to reach the creative community.</p>
 
-      <div class="mt-5 lg:mt-8 flex flex-col items-center gap-2 sm:flex-row sm:gap-3">
-        <div class="w-full sm:w-auto">
-          <label for="hero-input" class="sr-only">Search</label>
-          <input type="text" id="hero-input" name="hero-input" class="py-3 px-4 block w-full xl:min-w-[18rem] border-gray-200 shadow-sm rounded-md focus:z-10 focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400" placeholder="Enter work email">
-        </div>
-        <a class="w-full sm:w-auto inline-flex justify-center items-center gap-x-3 text-center bg-blue-600 hover:bg-blue-700 border border-transparent text-white font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition py-3 px-4 dark:focus:ring-offset-gray-800" href="#">
-          Request demo
-        </a>
-      </div>
+      
 
       <!-- Brands -->
       <div class="mt-6 lg:mt-12">
@@ -496,10 +485,10 @@
             </svg>
             <div class="ml-5 sm:ml-8">
               <h3 class="text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200">
-                Seamless and Engaging Shopping Experience
+               Engaging Shopping Experience
               </h3>
               <p class="mt-1 text-gray-600 dark:text-gray-400">
-                We strive to create an environment where customers can enjoy a seamless and engaging shopping experience. By offering customizable storefronts inspired by leading brands, we enable businesses to captivate their target audience and establish trust from the first click. We envision a digital landscape where every online store reflects the professionalism and allure of industry giants, creating an immersive shopping journey for customers.
+                We strive to create an environment where customers can enjoy a seamless and engaging shopping experience. By offering customizable storefronts inspired by leading brands, we enable businesses to captivate their target audience and establish trust from the first click.
               </p>
             </div>
           </div>
