@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import ChatView from './views/chat.vue'; // Replace with your actual component
+import PendingView from './views/pending.vue'; // Replace with your actual component
 import MarketingView from './views/marketing.vue'
 import JoinView from './views/join.vue'
 import PrivacyView from './views/privacy.vue'
@@ -26,6 +26,11 @@ const routes = [
     path: '/join',
     name: 'JoinView',
     component: JoinView,
+  },
+  {
+    path: '/pending',
+    name: 'PendingView',
+    component: PendingView,
   },
   // Add your routes here
 ];
