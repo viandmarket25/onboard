@@ -85,11 +85,6 @@
     
     </div>
 
-    
-
-  <div class="max-w-[85rem] mx-auto py-10 px-4 sm:px-6 lg:px-8">
-    
-    </div>
 
 
 <!-- Hero -->
@@ -97,13 +92,34 @@
   <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-10">
     <div class="max-w-2xl text-center mx-auto">
      
-      <p class="mt-3 text-lg text-gray-800 dark:text-gray-400">Build your business here. Take it anywhere.</p>
+      <p class="mt-3 text-lg text-gray-800 dark:text-gray-400">We promise to be here for you from the birth to the growth of your store. 🎉</p>
     </div>
 
     <div class="mt-10 relative max-w-5xl mx-auto">
-      <div class="w-full object-cover h-96 sm:h-[480px] bg-[url('https://images.unsplash.com/photo-1606868306217-dbf5046868d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1981&q=80')] bg-no-repeat bg-center bg-cover rounded-xl"></div>
+      <div class="bg-gray-800 shadow-[0_2.75rem_3.5rem_-2rem_rgb(45_55_75_/_20%),_0_0_5rem_-2rem_rgb(45_55_75_/_15%)] dark:shadow-[0_2.75rem_3.5rem_-2rem_rgb(0_0_0_/_20%),_0_0_5rem_-2rem_rgb(0_0_0_/_15%)] rounded-b-lg">
+            <img class="max-w-full h-auto rounded-b-lg" src="/src/assets/images/hero-1.png" alt="Image Description">
+          </div>
 
-  
+        
+    
+         <!-- Browser Device -->  <!--
+         <figure class="ml-auto mr-20 relative z-[1] max-w-full w-[50rem] h-auto rounded-b-lg shadow-[0_2.75rem_3.5rem_-2rem_rgb(45_55_75_/_20%),_0_0_5rem_-2rem_rgb(45_55_75_/_15%)] dark:shadow-[0_2.75rem_3.5rem_-2rem_rgb(0_0_0_/_20%),_0_0_5rem_-2rem_rgb(0_0_0_/_15%)]">
+          <div class="relative flex items-center max-w-[50rem] bg-white border-b border-gray-100 rounded-t-lg py-2 px-24 dark:bg-gray-800 dark:border-gray-700">
+            <div class="flex space-x-1 absolute top-2/4 left-4 -translate-y-1">
+              <span class="w-2 h-2 bg-gray-200 rounded-full dark:bg-gray-700"></span>
+              <span class="w-2 h-2 bg-gray-200 rounded-full dark:bg-gray-700"></span>
+              <span class="w-2 h-2 bg-gray-200 rounded-full dark:bg-gray-700"></span>
+            </div>
+            <div class="flex justify-center items-center w-full h-full bg-gray-200 text-[.25rem] text-gray-800 rounded-sm sm:text-[.5rem] dark:bg-gray-700 dark:text-gray-200">www.salesboyi.com</div>
+          </div>
+
+          <div class="bg-gray-800 rounded-b-lg">
+            <img class="max-w-full h-auto rounded-b-lg" src="/src/assets/images/hero-1.png" alt="Image Description">
+          </div>
+        </figure>
+      -->
+        <!-- End Browser Device -->
+      
 
       <div class="absolute bottom-12 -left-20 -z-[1] w-48 h-48 bg-gradient-to-b from-orange-500 to-white p-px rounded-lg dark:to-slate-900">
         <div class="bg-white w-48 h-48 rounded-lg dark:bg-slate-900"></div>
@@ -172,7 +188,7 @@
         <!-- Mobile Device -->
         <figure class="hidden absolute bottom-0 left-0 z-[2] max-w-full w-60 h-auto mb-20 ml-20 lg:block">
           <div class="p-1.5 bg-gray-100 rounded-3xl shadow-[0_2.75rem_5.5rem_-3.5rem_rgb(45_55_75_/_20%),_0_2rem_4rem_-2rem_rgb(45_55_75_/_30%),_inset_0_-0.1875rem_0.3125rem_0_rgb(45_55_75_/_20%)] dark:bg-gray-700 dark:shadow-[0_2.75rem_5.5rem_-3.5rem_rgb(0_0_0_/_20%),_0_2rem_4rem_-2rem_rgb(0_0_0_/_30%),_inset_0_-0.1875rem_0.3125rem_0_rgb(0_0_0_/_20%)]">
-            <img class="max-w-full h-auto rounded-[1.25rem]" src="../assets/img/mockups/img9.jpg" alt="Image Description">
+            <img class="max-w-full h-auto rounded-[1.25rem]" src="/src/assets/images/hero-1.png" alt="Image Description">
           </div>
         </figure>
         <!-- End Mobile Device -->
@@ -189,7 +205,7 @@
           </div>
 
           <div class="bg-gray-800 rounded-b-lg">
-            <img class="max-w-full h-auto rounded-b-lg" src="../assets/img/mockups/img8.jpg" alt="Image Description">
+            <img class="max-w-full h-auto rounded-b-lg" src="/src/assets/images/hero-1.png" alt="Image Description">
           </div>
         </figure>
         <!-- End Browser Device -->
@@ -602,6 +618,51 @@
     
     </div>
 
+    <!-- Hero -->
+<div class="bg-slate-900">
+  <div class="bg-gradient-to-b from-violet-600/[.15] via-transparent">
+    <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-24 space-y-8">
+      <!-- Announcement Banner -->
+      <div class="flex justify-center">
+        <a class="group inline-block bg-white/[.05] hover:bg-white/[.1] border border-white/[.05] p-1 pl-4 rounded-full shadow-md" href="../figma.html">
+          <p class="mr-2 inline-block text-white text-sm">
+            Preline UI Figma is live.
+          </p>
+          <span class="group-hover:bg-white/[.1] py-2 px-3 inline-flex justify-center items-center gap-x-2 rounded-full bg-white/[.075] font-semibold text-white text-sm">
+            <svg class="w-2.5 h-2.5" width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </span>
+        </a>
+      </div>
+      <!-- End Announcement Banner -->
+
+      <!-- Title -->
+      <div class="max-w-3xl text-center mx-auto">
+        <h1 class="block font-medium text-gray-200 text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
+          Now it's easier than ever to build products
+        </h1>
+      </div>
+      <!-- End Title -->
+
+      <div class="max-w-3xl text-center mx-auto">
+        <p class="text-lg text-gray-400">Preline is a large open-source project, crafted with Tailwind CSS framework by Hmlstream.</p>
+      </div>
+
+      <!-- Buttons -->
+      <div class="text-center">
+        <a class="inline-flex justify-center items-center gap-x-3 text-center bg-gradient-to-tl from-blue-600 to-violet-600 shadow-lg shadow-transparent hover:shadow-blue-700/50 border border-transparent text-white text-sm font-medium rounded-full focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white py-3 px-6 dark:focus:ring-offset-gray-800" href="#">
+          Get started
+          <svg class="w-2.5 h-2.5" width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <path d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </a>
+      </div>
+      <!-- End Buttons -->
+    </div>
+  </div>
+</div>
+<!-- End Hero -->
 
 
 
